@@ -1,0 +1,10 @@
+case 4:
+flist =fimpl.showAll Food();
+if(flist!=null && flist.isEmpty()!=true){
+Iterator<Food> it =flist.iterator();
+while(it.hasNext())
+system.out.println(it.hasNext())
+}
+else
+system.out.println("no data for food deatils at this moment..");
+break;
